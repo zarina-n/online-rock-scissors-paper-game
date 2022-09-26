@@ -205,9 +205,9 @@ function getGameStatus() {
 
 function renderPlayerMoveButton(container) {
   const choices = {
-    rock: '../img/rock-icon.png',
-    scissors: '../img/scissors-icon.png',
-    paper: '../img/paper-icon.png',
+    rock: './img/rock-icon.png',
+    scissors: './img/scissors-icon.png',
+    paper: './img/paper-icon.png',
   }
 
   const keys = Object.entries(choices)

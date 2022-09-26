@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bungee Spice';
+  background-color: black;
+  color: #ffe5b4;
+}
+
+.app {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  border: solid 1px orange;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.input {
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #838888;
+  color: #ffe5b4;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.button {
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #181818;
+  color: #ffe5b4;
+  margin: 15px;
+  border: 1px solid #ffe5b4;
+  width: 250px;
+}
+
+.choice-button-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.choice-button {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border: 1px solid #ffe5b4;
+  border-radius: 5px;
+  background-color: orange;
+  transition: all 1s ease;
+}
+
+.choice-button:hover {
+  transform: scale(1.05);
+}
+
+.player_list-div {
+  color: inherit;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.text {
+  color: inherit;
+  font-size: 20px;
+}
+
+.error-message {
+  color: salmon;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .choice-button-container {
+    flex-direction: column;
+  }
+
+  .choice-button {
+    width: 100px;
+    height: 100px;
+  }
+
+  .input {
+    width: 200px;
+  }
+}

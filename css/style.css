@@ -42,7 +42,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
-  background-color: #838888;
+  background-color: white;
   color: #ffe5b4;
   text-align: center;
   margin-top: 15px;
@@ -109,5 +109,12 @@ body {
 
   .input {
     width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .app {
+    padding: 15px;
+    width: 250px;
   }
 }

@@ -4,7 +4,7 @@
 
 Rock-scissors-paper is an online SPA game that I've build while learning advanced JavaScript
 
-To see this project you can follow this link [https://kittysaur.github.io/rock-scissors-paper/](https://kittysaur.github.io/online-rock-scissors-paper-game/)
+To see this project you can follow this [link](https://kittysaur.github.io/online-rock-scissors-paper-game/)
 
 ## How to play
 
